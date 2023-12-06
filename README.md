@@ -142,6 +142,16 @@ Uno de lso datos a considerar es que la reducción de fatalidad entre en 2018 y 
 </table>
 </div>
 
+| AÑO  | count | mean     | std      | min | 25% | 50% | 75% | max |
+|------|-------|----------|----------|-----|-----|-----|-----|-----|
+| 2016 | 146   | 1.027397 | 0.163800 | 1   | 1   | 1   | 1   | 2   |
+| 2017 | 140   | 1.142857 | 0.408038 | 1   | 1   | 1   | 1   | 3   |
+| 2018 | 149   | 1.080537 | 0.273040 | 1   | 1   | 1   | 1   | 2   |
+| 2019 | 104   | 1.019231 | 0.138000 | 1   | 1   | 1   | 1   | 2   |
+| 2020 | 81    | 1.074074 | 0.263523 | 1   | 1   | 1   | 1   | 2   |
+| 2021 | 97    | 1.000000 | 0.000000 | 1   | 1   | 1   | 1   | 1   |
+
+
 #### Análisis de Distribución Mensual de Homicidios por Año
 
 El siguiente gráfico muestra la distribución mensual por año de los homicidios. Se destaca que el mes de diciembre exhibe la ocurrencia más alta en la distribución. Curiosamente, a pesar de la reducción general en los homicidios debido a la pandemia, diciembre de 2020 presenta una de las tasas más altas en comparación con ese mismo mes en otros años.
@@ -235,6 +245,21 @@ El mes de diciembre comprende la media mensual mas alta.
   </tbody>
 </table>
 </div>
+
+| MM | 0          |
+|----|------------|
+| 1  | 10.333333  |
+| 2  | 9.833333   |
+| 3  | 9.333333   |
+| 4  | 8.666667   |
+| 5  | 10.000000  |
+| 6  | 9.666667   |
+| 7  | 8.500000   |
+| 8  | 11.166667  |
+| 9  | 8.500000   |
+| 10 | 8.666667   |
+| 11 | 11.333333  |
+| 12 | 13.500000  |
 
 
 #### Distribución por día del mes
@@ -406,6 +431,25 @@ La tabla presenta el porcentaje de homicidios por comuna, destacando que la Comu
 </table>
 </div>
 
+| COMUNA | Porcentaje |
+|--------|------------|
+| 0      | 0.27       |
+| 1      | 12.97      |
+| 2      | 3.48       |
+| 3      | 6.41       |
+| 4      | 11.01      |
+| 5      | 3.06       |
+| 6      | 3.06       |
+| 7      | 8.64       |
+| 8      | 9.34       |
+| 9      | 10.46      |
+| 10     | 4.18       |
+| 11     | 4.60       |
+| 12     | 5.43       |
+| 13     | 5.57       |
+| 14     | 5.16       |
+| 15     | 6.27       |
+
 #### Relación entre Tipo de Calle y Comuna: Homicidios
 
 En el siguiente gráfico, exploramos la relación entre el tipo de calle y la comuna en términos de homicidios. La visualización confirma que las Avenidas, especialmente en la Comuna 1, concentran una parte significativa de los homicidios.
@@ -496,6 +540,19 @@ La tabla presenta el top 10 de las arterias viales con mayor cantidad de siniest
   </tbody>
 </table>
 </div>
+
+| Calle                                     | Cantidad |
+|-------------------------------------------|----------|
+| PAZ, GRAL. AV.                            | 61       |
+| RIVADAVIA AV.                             | 20       |
+| DEL LIBERTADOR AV.                        | 19       |
+| AUTOPISTA 1 SUR PRESIDENTE ARTURO FRONDIZI | 14       |
+| AUTOPISTA PERITO MORENO                   | 13       |
+| ALBERDI, JUAN BAUTISTA AV.                | 13       |
+| AUTOPISTA 25 DE MAYO                      | 12       |
+| SAN MARTIN AV.                            | 11       |
+| CORRIENTES AV.                            | 11       |
+| CORDOBA AV.                               | 10       |
 
 
 #### Frecuencia de Homicidios en Función de la Dirección
