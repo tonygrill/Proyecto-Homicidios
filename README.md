@@ -146,9 +146,9 @@ Uno de lso datos a considerar es que la reducción de fatalidad entre en 2018 y 
 
 El siguiente gráfico muestra la distribución mensual por año de los homicidios. Se destaca que el mes de diciembre exhibe la ocurrencia más alta en la distribución. Curiosamente, a pesar de la reducción general en los homicidios debido a la pandemia, diciembre de 2020 presenta una de las tasas más altas en comparación con ese mismo mes en otros años.
 
-
-![Distribución Mensual de Homicidios](src\distribucion_mensual_homicidios_año.png)
-
+<p align="center">
+<img src ="src\distribucion_mensual_homicidios_año.png">
+<p>
 Aquí mostramos de manera gráfica que el mes de diciembre tiene una media mas alta que el resto de los meses
 
 ![Media mensual de homicidios](src\prom_mensual_homicidios.png)
