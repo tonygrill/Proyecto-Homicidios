@@ -149,9 +149,12 @@ El siguiente gráfico muestra la distribución mensual por año de los homicidio
 <p align="center">
 <img src ="src\distribucion_mensual_homicidios_año.png">
 <p>
+
 Aquí mostramos de manera gráfica que el mes de diciembre tiene una media mas alta que el resto de los meses
 
-![Media mensual de homicidios](src\prom_mensual_homicidios.png)
+<p align="center">
+<img src ="src\prom_mensual_homicidios.png">
+<p>
 
 El mes de diciembre comprende la media mensual mas alta.
 
@@ -240,8 +243,10 @@ Al desglosar nuestro análisis, observamos a través del siguiente gráfico que 
 
 Este hallazgo nos permite comprender patrones específicos y concentraciones inusuales de incidentes en una fecha particular del mes.
 
+<p align="center">
+<img src ="src\prom_dia_del_mes.png">
+<p>
 
-![Distribución por dia del mes](src\prom_dia_del_mes.png)
 
 
 #### Análisis de Ocurrencia de Siniestros por Hora
@@ -250,8 +255,9 @@ Al examinar las horas de mayor ocurrencia de siniestros, notamos que las horas p
 
 Este patrón horario podría ser fundamental para orientar estrategias de prevención y concienciación, enfocándose en la promoción de conductas seguras durante estas horas específicas del día.
 
-
-![Distribución hora del dia](src\distribucion_hora_del_dia.png)
+<p align="center">
+<img src ="src\distribucion_hora_del_dia.png">
+<p>
 
 
 #### Análisis de Día de la Semana con respecto a la Hora
@@ -260,7 +266,9 @@ Hemos contrastado el día de la semana y la hora en un mapa de calor, revelando 
 
 La asociación entre la hora específica y el día de la semana puede proporcionar valiosas percepciones para la implementación de medidas preventivas y estrategias de concienciación, especialmente dirigidas a reducir los siniestros relacionados con el consumo de alcohol en esos momentos específicos.
 
-![Día de la semana con hora](src\heatmap_hora_dia_semana.png)
+<p align="center">
+<img src ="src\heatmap_hora_dia_semana.png">
+<p>
 
 
 #### Análisis del Tipo de Arteria Vial y Número de Siniestros
@@ -283,7 +291,9 @@ Para complementar lo dicho anteriormente, el siguiente gráfico de torta ilustra
 
 Este gráfico refuerza la observación de que las avenidas presentan un porcentaje considerablemente alto de homicidios en comparación con otros tipos de arterias viales. Esta información puede ser crucial al desarrollar estrategias específicas para mejorar la seguridad en estas áreas de la ciudad.
 
-![Homicidios por tipo de calle](src\homicidios_tipo_calle.png)
+<p align="center">
+<img src ="src\homicidios_tipo_calle.png">
+<p>
 
 #### Analisis por Comuna
 
@@ -402,7 +412,9 @@ En el siguiente gráfico, exploramos la relación entre el tipo de calle y la co
 
 Este hallazgo refuerza la importancia de implementar medidas específicas de seguridad y prevención en las Avenidas de la Comuna 1, con el objetivo de reducir la incidencia de homicidios en estas áreas específicas.
 
-![Comuna y tipo de calle](src\homicidios_comuna_tipo_calle.png)
+<p align="center">
+<img src ="src\homicidios_comuna_tipo_calle.png">
+<p>
 
 #### Arterias viales con mayor incidencia.
 
@@ -530,19 +542,27 @@ Estos hallazgos sugieren que ciertos puntos específicos de la ciudad pueden req
 
 Hemos creado un mapa de calor que representa la distribución de homicidios según el año y la comuna. Este mapa confirma las tendencias observadas en los datos numéricos recientemente presentados. Es notable el aumento de incidentes en la comuna 1, con especial énfasis en los años 2016, 2017 y 2018 en comparación con otras categorías. Este análisis visual resalta la importancia de estas áreas y períodos en particular en relación con los homicidios registrados.
 
-![Homicidios por comuna y año](src\heatmap_hom_comuna_año.png)
+<p align="center">
+<img src ="src\heatmap_hom_comuna_año.png">
+<p>
 
 #### Victimas según su genero
 
 El genero masculino presenta un indice de mortalidad en siniestros viales del 76,4%
 
-![victimas por genero](src\genero.png)
+<p align="center">
+<img src ="src\genero.png">
+<p>
+
 
 ####  Relación entre COMUNA y SEXO
 
 Realizamos una tabla de frecuencia relacionando el género con la comuna. Observamos que las víctimas masculinas tienen su pico en la comuna 1, mientras que las víctimas femeninas fueron más numerosas en la comuna 9.
 
-![comuna sexo](src\comuna_sexo.png)
+<p align="center">
+<img src ="src\comuna_sexo.png">
+<p>
+
 
 #### Relción entre tipo de calle y sexo
 
@@ -570,26 +590,31 @@ Independientemente del tipo de calle, se observa que las mujeres tienden a tener
 
 Este gráfico de barras ilustra la distribución de roles de las víctimas según su género. Se destaca que la mayoría de las víctimas masculinas desempeñaban el rol de conductor, mientras que en el caso de las mujeres, predominaba el rol de peatón. Esta disparidad en la distribución resalta la importancia de abordar medidas de seguridad específicas para conductores y peatones, considerando las diferencias de género y los patrones de incidencia en roles específicos.
 
-![roles genero](src\roles_genero.png)
+<p align="center">
+<img src ="src\roles_genero.png">
+<p>
+
 
 
 #### Muertes el mismo día
 
 El gráfico de torta siguiente revela que un significativo 78,8% de las víctimas perdieron la vida el mismo día del accidente, en marcado contraste con el 21,2% de los casos en los que la muerte ocurrió en fechas posteriores. Este hallazgo resalta la agudeza de las consecuencias mortales en la mayoría de los incidentes, enfatizando la importancia de medidas inmediatas y eficaces en términos de atención médica y prevención de accidentes viales.
 
-![muertes](src\muertes_mismo_dia.png)
+<p align="center">
+<img src ="src\muertes_mismo_dia.png">
+<p>
+
 
 #### Relación entre muertes el mismo dia y genero
 
 
 En el gráfico que sigue, se examina la relación entre las muertes ocurridas el mismo día y el género de las víctimas. Los datos muestran que el 80.47% de las mujeres fallecen el mismo día del accidente, mientras que en el caso de los hombres, esta cifra es ligeramente menor, alcanzando un 78.28%. Estas estadísticas revelan una tendencia común entre ambos géneros en cuanto a la rapidez de las consecuencias mortales tras un accidente vial.
 
-![mertes y genero](src\genero_muerte_mismo_dia.png)
+<p align="center">
+<img src ="src\genero_muerte_mismo_dia.png">
+<p>
 
-
-
-
-#### Conclusión: Análisis de Homicidios en Accidentes de Tránsito en Buenos Aires
+#### Conclusiones
 
 A lo largo de este análisis exhaustivo de los homicidios relacionados con accidentes de tránsito en Buenos Aires, hemos identificado patrones significativos y tendencias que ofrecen una visión más clara de la problemática. Algunos hallazgos clave incluyen:
 
@@ -604,6 +629,3 @@ Tiempo de Respuesta: La mayoría de las víctimas fallecen el mismo día del acc
 Recomendaciones para Futuras Investigaciones: Se sugiere incluir más detalles sobre la causa del siniestro y explorar regulaciones específicas para mejorar la seguridad en áreas críticas.
 
 Este análisis proporciona información valiosa para las autoridades locales, permitiéndoles tomar medidas preventivas y desarrollar estrategias efectivas para reducir la incidencia de homicidios en accidentes de tránsito. La combinación de datos numéricos, gráficos visuales y análisis detallados ofrece una comprensión completa de la situación, allanando el camino para futuras investigaciones y acciones proactivas.
-=======
-# Proyecto-Homicidios
->>>>>>> 43b6b1f4ee270b8565b4cd9e2913431e9f6b92f5
