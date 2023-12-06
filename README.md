@@ -8,11 +8,19 @@ Recibimos un archivo en formato Excel que contiene dos conjuntos de datos: uno r
 
 Los archivos resultantes de nuestro análisis están estructurados de la siguiente manera:
 
+- `homicidios.xlsx`: Es el dataset de origen facilitado por el organismo.
+
 - `ETL_homicidios_hechos.ipynb`: Es un archivo en formato Jupyter Notebook que abarca todo el proceso de Extracción, Transformación y Carga (ETL) relacionado con el conjunto de datos de HECHOS.
 
 - `ETL_homicidios_victimas.ipynb`: Contiene todo el proceso de ETL referido al conjunto de datos de VICTIMAS.
 
 - `EDA.ipynb`: Este archivo incluye todo el estudio, gráficos y análisis de nuestro estudio exploratorio de datos.
+
+- `dataset.csv`: Este es el archivo resultande del EDA, con este dataset trabajaremos en nuestro Dashboard.
+
+- `carpeta src`: Esta carpeta contiene todas las imagenes adjuntas al README.
+
+- `mapa_homicidios.html`: Archivo HTML con las hubicaciones de los siniestros.
 
 A continuación, presentaremos nuestros análisis y hallazgos:
 
@@ -32,117 +40,6 @@ Esta información proporciona una visión integral de la variabilidad y distribu
 Uno de lso datos a considerar es que la reducción de fatalidad entre en 2018 y 2020 es del 54%, 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>count</th>
-      <th>mean</th>
-      <th>std</th>
-      <th>min</th>
-      <th>25%</th>
-      <th>50%</th>
-      <th>75%</th>
-      <th>max</th>
-    </tr>
-    <tr>
-      <th>AÑO</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2016</th>
-      <td>146.0</td>
-      <td>1.027397</td>
-      <td>0.163800</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>2017</th>
-      <td>140.0</td>
-      <td>1.142857</td>
-      <td>0.408038</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>3.0</td>
-    </tr>
-    <tr>
-      <th>2018</th>
-      <td>149.0</td>
-      <td>1.080537</td>
-      <td>0.273040</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>2019</th>
-      <td>104.0</td>
-      <td>1.019231</td>
-      <td>0.138000</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>2020</th>
-      <td>81.0</td>
-      <td>1.074074</td>
-      <td>0.263523</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>2021</th>
-      <td>97.0</td>
-      <td>1.000000</td>
-      <td>0.000000</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p align="center">
 | AÑO  | count | mean     | std      | min | 25% | 50% | 75% | max |
 |------|-------|----------|----------|-----|-----|-----|-----|-----|
 | 2016 | 146   | 1.027397 | 0.163800 | 1   | 1   | 1   | 1   | 2   |
@@ -151,7 +48,7 @@ Uno de lso datos a considerar es que la reducción de fatalidad entre en 2018 y 
 | 2019 | 104   | 1.019231 | 0.138000 | 1   | 1   | 1   | 1   | 2   |
 | 2020 | 81    | 1.074074 | 0.263523 | 1   | 1   | 1   | 1   | 2   |
 | 2021 | 97    | 1.000000 | 0.000000 | 1   | 1   | 1   | 1   | 1   |
-</p>
+
 
 #### Análisis de Distribución Mensual de Homicidios por Año
 
@@ -169,98 +66,21 @@ Aquí mostramos de manera gráfica que el mes de diciembre tiene una media mas a
 
 El mes de diciembre comprende la media mensual mas alta.
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-    </tr>
-    <tr>
-      <th>MM</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>10.333333</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>9.833333</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>9.333333</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>8.666667</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>10.000000</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>9.666667</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8.500000</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>11.166667</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>8.500000</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>8.666667</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>11.333333</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13.500000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-| MM | 0          |
-|----|------------|
-| 1  | 10.333333  |
-| 2  | 9.833333   |
-| 3  | 9.333333   |
-| 4  | 8.666667   |
-| 5  | 10.000000  |
-| 6  | 9.666667   |
-| 7  | 8.500000   |
-| 8  | 11.166667  |
-| 9  | 8.500000   |
-| 10 | 8.666667   |
-| 11 | 11.333333  |
-| 12 | 13.500000  |
+| MM | 0      |
+|----|--------|
+| 1  | 10.33  |
+| 2  | 9.83   |
+| 3  | 9.33   |
+| 4  | 8.66   |
+| 5  | 10.00  |
+| 6  | 9.66   |
+| 7  | 8.50   |
+| 8  | 11.16  |
+| 9  | 8.50   |
+| 10 | 8.66   |
+| 11 | 11.33  |
+| 12 | 13.50  |
 
 
 #### Distribución por día del mes
@@ -325,113 +145,6 @@ Este gráfico refuerza la observación de que las avenidas presentan un porcenta
 
 La tabla presenta el porcentaje de homicidios por comuna, destacando que la Comuna 1 tiene el porcentaje más alto con un 12.97%, seguida por la Comuna 4 con un 11.02%. Esto nos permite focalizar esfuerzos de seguridad y prevención en las comunas con mayores porcentajes de homicidios.
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>COMUNA</th>
-      <th>Porcentaje</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0</td>
-      <td>0.27</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>12.97</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2</td>
-      <td>3.48</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>3</td>
-      <td>6.41</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>4</td>
-      <td>11.01</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>5</td>
-      <td>3.06</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>6</td>
-      <td>3.06</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>7</td>
-      <td>8.64</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>8</td>
-      <td>9.34</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>9</td>
-      <td>10.46</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>10</td>
-      <td>4.18</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>11</td>
-      <td>4.60</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>12</td>
-      <td>5.43</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>13</td>
-      <td>5.57</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>14</td>
-      <td>5.16</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>15</td>
-      <td>6.27</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
 | COMUNA | Porcentaje |
 |--------|------------|
 | 0      | 0.27       |
@@ -465,82 +178,6 @@ Este hallazgo refuerza la importancia de implementar medidas específicas de seg
 
 La tabla presenta el top 10 de las arterias viales con mayor cantidad de siniestros. La Avenida Gral. Paz encabeza la lista con 61 siniestros, seguida por la Avenida Rivadavia con 20 y la Avenida del Libertador con 19. Este análisis es crucial para priorizar intervenciones y medidas preventivas específicas en estas arterias viales con mayores incidencias de siniestros.
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Calle</th>
-      <th>Cantidad</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>PAZ, GRAL. AV.</td>
-      <td>61</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>RIVADAVIA AV.</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>DEL LIBERTADOR AV.</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>AUTOPISTA 1 SUR PRESIDENTE ARTURO FRONDIZI</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>AUTOPISTA PERITO MORENO</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>ALBERDI, JUAN BAUTISTA AV.</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>AUTOPISTA 25 DE MAYO</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>SAN MARTIN AV.</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>CORRIENTES AV.</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>CORDOBA AV.</td>
-      <td>10</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 | Calle                                     | Cantidad |
 |-------------------------------------------|----------|
@@ -671,6 +308,8 @@ En el gráfico que sigue, se examina la relación entre las muertes ocurridas el
 <p align="center">
 <img src ="src\genero_muerte_mismo_dia.png">
 <p>
+
+Hemos utilizado la biblioteca Folium para generar un mapa de geolocalización que permite visualizar de manera precisa la ubicación de los siniestros. El archivo correspondiente se encuentra adjunto en el repositorio
 
 #### Conclusiones
 
