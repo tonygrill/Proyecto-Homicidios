@@ -142,6 +142,7 @@ Uno de lso datos a considerar es que la reducción de fatalidad entre en 2018 y 
 </table>
 </div>
 
+<p align="center">
 | AÑO  | count | mean     | std      | min | 25% | 50% | 75% | max |
 |------|-------|----------|----------|-----|-----|-----|-----|-----|
 | 2016 | 146   | 1.027397 | 0.163800 | 1   | 1   | 1   | 1   | 2   |
@@ -150,7 +151,7 @@ Uno de lso datos a considerar es que la reducción de fatalidad entre en 2018 y 
 | 2019 | 104   | 1.019231 | 0.138000 | 1   | 1   | 1   | 1   | 2   |
 | 2020 | 81    | 1.074074 | 0.263523 | 1   | 1   | 1   | 1   | 2   |
 | 2021 | 97    | 1.000000 | 0.000000 | 1   | 1   | 1   | 1   | 1   |
-
+</p>
 
 #### Análisis de Distribución Mensual de Homicidios por Año
 
