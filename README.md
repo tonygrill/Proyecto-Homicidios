@@ -326,3 +326,9 @@ Tiempo de Respuesta: La mayoría de las víctimas fallecen el mismo día del acc
 Recomendaciones para Futuras Investigaciones: Se sugiere incluir más detalles sobre la causa del siniestro y explorar regulaciones específicas para mejorar la seguridad en áreas críticas.
 
 Este análisis proporciona información valiosa para las autoridades locales, permitiéndoles tomar medidas preventivas y desarrollar estrategias efectivas para reducir la incidencia de homicidios en accidentes de tránsito. La combinación de datos numéricos, gráficos visuales y análisis detallados ofrece una comprensión completa de la situación, allanando el camino para futuras investigaciones y acciones proactivas.
+
+
+Ing Antonio Moreno
+antomore353@hotmail.com
+Linkeding: www.linkedin.com/in/antonio-miguel-moreno-martínez-473a162a2
+Github: https://github.com/tonygrill
